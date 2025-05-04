@@ -1,0 +1,18 @@
+.icon-image {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-image img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+/*responsivo*/
+
+.icon-image img {
+  width: 1.5em;
+  height: 1.5em;
+}

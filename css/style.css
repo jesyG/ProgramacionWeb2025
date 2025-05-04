@@ -1499,4 +1499,15 @@ input[type="text"] {
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .carousel-container {
+    flex-direction: column;
+  }
+}
+
+.carousel img {
+  width: 100%;
+  height: 300px; /* o lo que necesites */
+  object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
